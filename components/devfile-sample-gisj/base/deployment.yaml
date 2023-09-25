@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-gisj
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0071-tenant/ci10t-786-0071-app/devfile-sample-gisj@sha256:40a39c4e945a55551f94e103a336c4bab38a6022a763ec4657e97b061bb60516
         name: my-nodejs
         ports:
         - containerPort: 3001
